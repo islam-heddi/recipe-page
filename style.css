@@ -81,3 +81,9 @@ td{
 td:nth-child(2){
     color: brown;
 }
+
+tr:last-child{
+    & td{
+        border-bottom: 0px;
+    }
+}
